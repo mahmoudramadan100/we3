@@ -1,7 +1,4 @@
 $(function () {
-    $(".fa-search").click(function () {
-        $("input").fadeToggle()
-    });
     // open video
     $(".js-video-button").modalVideo({
         youtube: {
@@ -9,6 +6,7 @@ $(function () {
             nocookie: true
         }
     });
+    // scroll icons
     $(".scroll span").click(function () {
         $('html, body').animate({
             scrollTop: $(".slide").offset().top
@@ -30,11 +28,7 @@ $(function () {
         interactive: true,
     });
 
-
-    $('#fullpage').fullpage({
-        //options here
-        autoScrolling: true,
-        scrollHorizontally: true
-    });
+    // scroll
+    $('#fullpage').fullpage();
 
 });
