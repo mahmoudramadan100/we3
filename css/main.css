@@ -9,6 +9,12 @@
     --text-color: #6d6963;
 }
 
+@font-face {
+    font-family: SimplonBold;
+    src: url('../webfonts/Spbldrul.ttf');
+}
+
+
 body {
     font-family: 'Oswald', sans-serif;
     /* overflow: hidden; */
@@ -349,7 +355,7 @@ div:hover:before {
     height: 100vh;
     width: 9%;
     position: fixed;
-     z-index: 9999;
+    z-index: 9999;
 }
 
 .body .no-gutters {
@@ -508,16 +514,20 @@ div:hover:before {
 }
 
 .the-role h3 {
+    color: var(--third-color);
     -moz-transform: rotate(270deg);
     -webkit-transform: rotate(270deg);
     -o-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
-    width: 100px;
+    /* width: 100px; */
     text-align: center;
     position: absolute;
-    top: 60px;
+    top: 20%;
+    left: 0;
+
 }
+
 .the-role p {
     font-size: 15px;
     line-height: 35px;
@@ -525,6 +535,7 @@ div:hover:before {
     margin: 20px 0;
     padding: 10px 0;
 }
+
 .the-role p:first-child::before {
     content: "";
     position: absolute;
@@ -532,13 +543,221 @@ div:hover:before {
     top: 0;
     width: 50px;
 }
+
 .the-role .img {
-         width: 116%;
-         margin-top: 0px;
-         height: 90%;
-         margin-left: -66px;
+    width: 116%;
+    margin-top: 0px;
+    height: 90%;
+    margin-left: -66px;
 }
+
 .the-role .img img {
-       width: 100%;
-       height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+/* End The-Rloe */
+/* Start requirements*/
+.requirements {
+    padding: 120px 0;
+    position: relative;
+}
+
+.requirements .img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .requirements .img img {
+width: 100%;
+height: 100%;
+} */
+.requirements h3 {
+    color: var(--third-color);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    /* width: 100px; */
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+
+.requirements .list-requirements {
+    padding: 20px 0;
+}
+
+.requirements .list-requirements p {
+    font-size: 15px;
+    line-height: 35px;
+    color: var(--text-color);
+    margin: 10px 0;
+}
+
+.list-requirements p::before {
+    content: "";
+    position: absolute;
+    border-top: 5px solid var(--third-color);
+    top: 0;
+    width: 50px;
+}
+
+.list-requirements ul {
+    list-style: none;
+}
+
+.list-requirements ul li {
+    padding: 10px 0;
+    color: var(--text-color);
+}
+
+.list-requirements ul li::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background-color: var(--second-color);
+    left: 10px;
+    margin-top: 12px;
+}
+
+/* End requirements */
+.life {
+    padding: 120px 0;
+    position: relative;
+}
+
+.life h3 {
+    width: 179px;
+    color: var(--third-color);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: -60%;
+}
+
+.life p {
+    font-size: 15px;
+    line-height: 35px;
+    color: var(--text-color);
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.life p:first-child::before {
+    content: "";
+    position: absolute;
+    border-top: 5px solid var(--third-color);
+    top: 0;
+    width: 50px;
+}
+
+.life ul {
+    list-style: none;
+}
+
+.life ul li::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: var(--third-color);
+    left: 25px;
+    margin-top: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.life ul li {
+    padding: 18px 0;
+    color: var(--text-color);
+}
+
+.life .img {
+    width: 116%;
+    margin-top: 0px;
+    height: 90%;
+    margin-left: -66px;
+}
+
+.life .img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* End Life */
+/*************/
+/* tab 2 */
+/************/
+/* Start intern */
+.intern {
+    padding: 120px 0;
+}
+
+.intern h1 {
+    font-size: 10vw;
+    color: var(--third-color);
+    line-height: 11vw;
+}
+
+.intern h3 {
+    font-size: 10vw;
+    font-weight: bold;
+    width: 179px;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    text-align: center;
+    position: absolute;
+    top: 20%;
+}
+
+.intern p {
+    font-size: 1.5vw;
+    line-height: 2vw;
+    line-height: 35px;
+    color: var(--text-color);
+    margin: 60px 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+/* End INTERN */
+/* STart Meghan */
+.meghan {
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.meghan .text-content {
+    position: absolute;
+    left: 70%;
+    bottom: 15%;
+    width: 730px;
+    padding-left: 17%;
+    background-color: rgba(185,148,88,0.7);
+    z-index: 9999;
+    padding-top: 30px;
+    padding-top: 30px;
+}
+.meghan .text-content h1 {
+    padding: 10px 0 20px;
+    font-size: 7rem;
+    line-height: 6rem;
+    font-weight: bold;
+    color: #fff;
 }
