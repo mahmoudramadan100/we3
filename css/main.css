@@ -18,7 +18,7 @@
 body {
     font-family: 'Oswald', sans-serif;
     /* overflow: hidden; */
-    height: 7000px;
+   
 }
 
 #fullpage {
@@ -473,22 +473,6 @@ div:hover:before {
     font-weight: bold
 }
 
-/* .what h1 {
-
-    position: absolute;
-    -moz-transform: rotate(270deg);
-    -webkit-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
-    font-size: 7rem;
-    left: -41%;
-    top: 15%;
-    line-height: 7rem;
-    font-weight: bold;
-    color: var(--third-color);
-    letter-spacing: 7px
-} */
 .what h1 {
     position: absolute;
     -moz-transform: rotate(270deg);
@@ -955,6 +939,9 @@ height: 100%;
 .window {
     padding: 10px 0;
 }
+.window .row {
+    margin-left: -30px;
+}
 .window .img {
     height: 100%;
     width: 100%;
@@ -1064,4 +1051,162 @@ footer .social i {
 footer ul li a:hover {
       text-decoration: none;
       color: #fff;
+}
+/* End Footer */
+/* Start About */
+.about {
+    background-color: #fff;
+}
+.about .nav-about {
+    padding: 10px 0;
+}
+.about .nav-about .logo {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto
+}
+.about .nav-about .logo a {
+    text-decoration: none;
+    color: var(--third-color);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about .nav-about .close-about {
+    float: right;
+    margin-top: 14px;
+    display: inline-block;
+    color: var(--third-color);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    margin-right: 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.about .nav-about .close-about:hover {
+    color: var(--four-color);
+}
+.about .nav-about .close-about:hover .fa-times {
+     transform: rotate(180deg);
+     -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+     -ms-transform: rotate(180deg);
+     -o-transform: rotate(180deg);
+     color: var(--four-color);
+     ;
+     cursor: pointer;
+}
+/* End NAVBAR */
+/* Start ABOUT THE INTERNSHIP */
+.internship {
+    padding: 60px 0;
+}
+.internship h1 {
+    padding: 20px 0;
+    font-size: 6rem;
+    line-height: 6rem;
+    color: var(--third-color);
+    font-weight: bold;
+}
+.internship .text {
+    padding: 60px 0;
+    color: var(--text-color);
+    line-height: 30px;
+    letter-spacing: 0.7px;
+}
+/* End ABOUT THE INTERNSHIP */
+/* Start Video */
+.video {
+    padding: 40px 0 90px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/* End video */
+.question-head h1 {
+    padding: 40px 0;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: var(--third-color);
+    font-weight: bold;
+}
+.question-head .text {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--third-color);
+}
+/* End head Q */
+/* Start Q */
+.question {
+    padding: 30px 0;
+}
+.question .q {
+    color: var(--text-color);
+    text-transform: uppercase;
+    margin-left: 12px;
+}
+.question .q h4 {
+    font-size: 17px;
+}
+.question .q::before {
+       content: "Q";
+       position: absolute;
+       font-size: 19px;
+       left: 0%;
+       top: -3px;
+       color: var(--four-color);
+       font-weight: bold;
+}
+.question .answer {
+    margin-left: 20px;
+}
+.question .answer::before {
+    content: "A";
+    position: absolute;
+    font-size: 19px;
+    left: 0%;
+    top: -3px;
+    color:var(--four-color);
+    font-weight: bold;
+}
+.question .bottom {
+    border-bottom: 1px solid var(--third-color);
+    padding: 12px 0;
+    margin: 15px 0;
+}
+.question .bottom:last-child {
+    padding-bottom: 80px;
+     border-bottom: 1px solid transparent;
+}
+
+/* End Q */
+/* End Start ASKED QUESTIONS  */
+/* Start footer about */
+.footer-about {
+    background-color: var(--third-color);
+    padding: 40px 0 20px;
+}
+.footer-about h4 {
+    display: inline-block;
+    color: #fff;
+}
+.footer-about .contact {
+    text-align: center;
+}
+.footer-about a {
+    border: 2px solid #fff;
+    padding: 7px 25px;
+    margin-left: 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: transparent;
+    transition: 0.8s all;
+    -webkit-transition: 0.8s all;
+    -moz-transition: 0.8s all;
+    -ms-transition: 0.8s all;
+    -o-transition: 0.8s all;
+    text-decoration: none;
+    display: inline-block
 }
