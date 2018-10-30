@@ -56,5 +56,14 @@ $(function () {
                 }
             }
         ]
-    });  
+    });
+    // Open About page
+    $(".about").click(function(){
+        $(".about-page").css("display","block");
+        $(".body").css("display", "none");
+    });
+    $(".close-about").click(function () {
+        $(".about-page").css("display", "none");
+        $(".body").css("display", "block");
+    });
 });

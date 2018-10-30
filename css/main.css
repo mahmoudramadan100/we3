@@ -7,6 +7,7 @@
     --third-color: #b99458;
     --four-color: #202020;
     --text-color: #6d6963;
+    --dev-color: #aeaeae;
 }
 
 @font-face {
@@ -1054,25 +1055,29 @@ footer ul li a:hover {
 }
 /* End Footer */
 /* Start About */
-.about {
+.about-page {
     background-color: #fff;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-.about .nav-about {
+.about-page.nav-about {
     padding: 10px 0;
 }
-.about .nav-about .logo {
+.about-page .nav-about .logo {
     text-align: center;
     display: inline-block;
     margin: 0 auto
 }
-.about .nav-about .logo a {
+.about-page .nav-about .logo a {
     text-decoration: none;
     color: var(--third-color);
     font-size: 2rem;
     font-weight: bold;
 }
 
-.about .nav-about .close-about {
+.about-page .nav-about .close-about {
     float: right;
     margin-top: 14px;
     display: inline-block;
@@ -1086,17 +1091,12 @@ footer ul li a:hover {
     font-size: 19px;
     font-weight: bold;
 }
-.about .nav-about .close-about:hover {
+.about-page .nav-about .close-about:hover {
     color: var(--four-color);
+    cursor: pointer;
 }
-.about .nav-about .close-about:hover .fa-times {
-     transform: rotate(180deg);
-     -webkit-transform: rotate(180deg);
-     -moz-transform: rotate(180deg);
-     -ms-transform: rotate(180deg);
-     -o-transform: rotate(180deg);
+.about-page .nav-about .close-about:hover .fa-times {
      color: var(--four-color);
-     ;
      cursor: pointer;
 }
 /* End NAVBAR */
@@ -1149,6 +1149,7 @@ footer ul li a:hover {
 }
 .question .q h4 {
     font-size: 17px;
+    line-height: 25px;
 }
 .question .q::before {
        content: "Q";
