@@ -21,6 +21,10 @@ body {
     /* overflow: hidden; */
    
 }
+body::-webkit-scrollbar { 
+    display: none; 
+}
+
 
 #fullpage {
     height: 100vh;
@@ -358,7 +362,10 @@ div:hover:before {
     position: fixed;
     z-index: 9999;
 }
-
+/* .scrolling-box {
+     scroll-behavior: smooth;
+     overflow: scroll;
+} */
 .body .no-gutters {
     margin-right: -15px;
     margin-left: -15px;
@@ -398,10 +405,11 @@ div:hover:before {
     text-decoration: none;
 }
 
-.slider .fa-bolt {
+.slider .fa-bolt,
+.slider .fa-code {
     position: absolute;
-    left: 42%;
-    top: 22%;
+    left: 100%;
+    top: 45%;
     font-size: 30px;
     color: var(--third-color);
 }
@@ -427,7 +435,7 @@ div:hover:before {
     color: var(--third-color);
 }
 
-.slider .switch i {
+.slider .switch .fa-angle-down {
     color: var(--third-color);
     display: block;
     text-align: center;
@@ -1061,6 +1069,7 @@ footer ul li a:hover {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 999;
 }
 .about-page.nav-about {
     padding: 10px 0;
@@ -1095,10 +1104,7 @@ footer ul li a:hover {
     color: var(--four-color);
     cursor: pointer;
 }
-.about-page .nav-about .close-about:hover .fa-times {
-     color: var(--four-color);
-     cursor: pointer;
-}
+
 /* End NAVBAR */
 /* Start ABOUT THE INTERNSHIP */
 .internship {
@@ -1211,3 +1217,40 @@ footer ul li a:hover {
     text-decoration: none;
     display: inline-block
 }
+/* End Footer */
+/* Start Tabs */
+.tabs {
+    display: inline-block;
+    float: left;
+    position: fixed;
+    top: 20%;
+    left: -2%;
+}
+.tabs ul {
+    list-style: none;
+}
+.tabs li a {
+    padding: 60px 29px 60px 0px;
+    border-right: 2px solid var(--main-color);
+    margin: 2px 0;
+    vertical-align: middle;
+    display: block;
+    text-decoration: none;
+    color: var(--third-color);
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    -ms-transition: 0.4s all;
+    -o-transition: 0.4s all;
+}
+.tabs li a:focus,
+.tabs li a:hover {
+    padding: 60px 29px 60px 0px;
+    border-right: 2px solid var(--third-color);
+    margin: 2px 0;
+    vertical-align: middle;
+    display: block;
+    text-decoration: none;
+    color: var(--third-color);
+}
+

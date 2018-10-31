@@ -93,6 +93,17 @@ $(function () {
         $(".about-page").css("display", "none");
         $(".body").css("display", "block");
     });
-    // Nice Scroll 
-    $("body").getNiceScroll().hide();
+    
+
+    // smooth scroll
+    var scroll = new SmoothScroll('a[href*="#1"]',{
+        speed: 900
+    });
+    var scroll = new SmoothScroll('a[href*="#2"]', {
+        speed: 900
+    });
+    var scroll = new SmoothScroll('a[href*="#3"]', {
+        speed: 900
+    });
+
 });

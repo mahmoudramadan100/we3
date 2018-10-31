@@ -9,6 +9,7 @@
     <link rel="icon" href="img/avatar.png">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/modal-video.min.css" />
     <link rel="stylesheet" href="css/lightslider.min.css" />
     <link rel="stylesheet" href="css/main.css" />
@@ -17,7 +18,7 @@
 
 <body>
     <!-- navbar and content -->
-    <div class="body">
+<div class="body scrolling-box">
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-md-11 col-sm-12 col-12">
@@ -35,8 +36,9 @@
                     </div>
                     <!-- End Navbar -->
                     <!---------- Start Tab 1---------------->
+<div class="tab-1" id="1">
                     <!-- Start content -->
-                    <div class="intent">
+                    <div class="intent" data-aos="fade-up" data-aos-duration="1000">
                         <div class="row">
                             <div class="col-md-5 offset-md-2">
                                 <h2>DESIGN WITH INTENT</h2>
@@ -72,7 +74,9 @@
                                 <div class="col-md-1 offset-md-1">
                                     <h3>THE ROLE</h3>
                                 </div>
-                                <div class="col-md-5">
+                                <div class="col-md-5" data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                                     <p>
                                         At Jam3, you'll be exposed to every discipline in our creative process – UX,
                                         UI, interactive design, motion design, and
@@ -90,7 +94,9 @@
                                 </div>
                                 <div class="col-md-4 offset-md-1">
                                     <div class="img">
-                                        <img src="img/2.jpg">
+                                        <img src="img/2.jpg" data-aos="fade-left"
+                                        data-aos-offset="300"
+                                        data-aos-duration="500">
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +108,9 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3" data-aos="fade-right"
+                                    data-aos-offset="300"
+                                    data-aos-easing="ease-in-sine">
                                         <div class="img">
                                             <img src="img/3.jpg">
                                         </div>
@@ -110,7 +118,9 @@
                                     <div class="col-md-4">
                                         <h3>REQUIREMENTS</h3>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5" data-aos="fade-left"
+                                    data-aos-offset="300"
+                                    data-aos-easing="ease-in-sine">
                                         <div class="list-requirements">
                                             <p>You own your shit. You’re a self-starter who shows passion and
                                                 dedication to every task given. "Make it happen and
@@ -152,7 +162,9 @@
                                 <div class="col-md-1 offset-md-1">
                                     <h3>LIFE AT JAM3</h3>
                                 </div>
-                                <div class="col-md-5">
+                                <div class="col-md-5" data-aos="fade-up"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                                     <p>Here's a little peek of how your week could play out:</p>
                                     <ul>
                                         <li> Scrum with your teammates – folks like executive producers, coordinators,
@@ -170,7 +182,9 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-4 offset-md-1">
-                                    <div class="img">
+                                    <div class="img" data-aos="fade-left"
+                                    data-aos-offset="300"
+                                    data-aos-easing="ease-in-sine">
                                         <img src="img/4.jpg">
                                     </div>
                                 </div>
@@ -178,8 +192,10 @@
                         </div>
                     </div>
                     <!-- End life -->
+                </div>
                     <!----------- End Tab 1------------>
                     <!----------- Start Tab 2---------->
+<div class="tab-2" id="2">
                     <!-- START INTERN STORIES -->
                     <div class="intern">
                         <div class="container">
@@ -250,7 +266,9 @@
                             <div class="row">
                                 <div class="col-md-11">
                                     <ul id="light-slider">
-                                        <li class="one">
+                                        <li class="one" data-aos="fade-right"
+                                        data-aos-offset="300"
+                                        data-aos-easing="ease-in-sine">
                                             <div class="text">
                                                 <ul>
                                                     <li>THREE IMPORTANT THINGS I LEARNED AT JAM3:</li>
@@ -263,7 +281,9 @@
                                             </div>
                                         </li>
                                         <li class="two">
-                                            <div class="text">
+                                            <div class="text" data-aos="fade-right"
+                                            data-aos-offset="300"
+                                            data-aos-easing="ease-in-sine">
                                                 <ul>
                                                     <li>MY MOST MEMORABLE MOMENT WITH THE JAMFAM</li>
                                                     <li>Our last WE3 beer o'clock</li>
@@ -271,7 +291,9 @@
                                             </div>
                                         </li>
                                         <li class="three">
-                                            <div class="text">
+                                            <div class="text" data-aos="fade-right"
+                                            data-aos-offset="600"
+                                            data-aos-easing="ease-in-sine">
                                                 <ul>
                                                     <li>WHAT ARE YOU INTO, THAT NOBODY ELSE IS?:</li>
                                                     <li>The scribble aesthetic that looks like a 5 year olds drawings.
@@ -398,8 +420,10 @@
                         </div>
                     </div>
                     <!-- End MY EXPERIENCE AT JAM3 -->
+                   </div>
                     <!----------- End Tab 2------------>
                     <!----------- Start Tab 3------------>
+<div class="tab-3" id="3">
                     <!-- START MAKE IT HAPPEN -->
                     <div class="intern">
                         <div class="container">
@@ -506,15 +530,17 @@
                             </div>
                         </div>
                     </footer>
-
+</div>
                     <!----------- End Tab 3------------>
+
                     <!-- End content -->
                 </div>
                 <!-- slider open Developer -->
                 <div class="col-md-1">
                     <div class="slider">
-                        <i class="fas fa-bolt fa-1x"></i>
+                       
                         <div class="switch">
+<i class="fas fa-bolt fa-1x"></i>
                             <a href="developer.html">
                             <i class="fas fa-angle-down"></i>
                                 switch to developer
@@ -854,17 +880,40 @@
         </div>
     </section>
     <!-- End About -->
+<!-- Start Tabs -->
+    <div class="tabs">
+        <div class="container-fluid">
+            <ul>
+                <li>
+                    <a data-scroll href="#1">1</a>
+                </li>
+                <li>
+                    <a data-scroll href="#2">2</a>
+                </li>
+                <li>
+                    <a data-scroll href="#3">3</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End -->
+<!-- End -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
     <!-- <script src="js/easings.min.js"></script> -->
     <!-- <script src="js/scrolloverflow.min.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/smooth-scroll.polyfills.min.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
     <script src="js/jquery-modal-video.min.js"></script>
     <script src="js/jquery.ripples-min.js"></script>
     <script src="js/lightslider.min.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
     <script src='js/jquery.fullpage.min.js'></script>
     <script src="js/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

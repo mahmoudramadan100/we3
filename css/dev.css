@@ -75,3 +75,60 @@
 .about-page .nav-about .close-about:hover {
     color: #fff;
 }
+.body .navbar .logo {
+    color: var(--third-color);
+    font-size: 20px;
+    padding-right: 70px;
+}
+.body .navbar .logo {
+    color: var(--third-color);
+    font-size: 20px;
+    padding-right: 70px;
+}
+.navbar {
+    background-color: var(--second-color);
+    height: 70px;
+    padding-left: 150px;
+    width: 100%;
+}
+.tabs {
+    display: inline-block;
+    float: right;
+    position: fixed;
+    top: 20%;
+    right: 3%;
+}
+.tabs ul {
+    list-style: none;
+}
+.tabs li a {
+    padding: 60px 0 60px 29px;
+    border-left: 2px solid var(--main-color);
+    margin: 2px 0;
+    vertical-align: middle;
+    display: block;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    -ms-transition: 0.4s all;
+    -o-transition: 0.4s all;
+    border-right: 1px solid transparent;
+}
+.tabs li a:focus,
+.tabs li a:hover {
+   padding: 60px 0 60px 29px;
+    border-left: 2px solid var(--third-color);
+    margin: 2px 0;
+    vertical-align: middle;
+    display: block;
+    text-decoration: none;
+    color: var(--third-color);
+    border-right: 1px solid transparent;
+}
+.tabs ul {
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
