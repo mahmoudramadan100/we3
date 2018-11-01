@@ -71,6 +71,7 @@
 }
 .about-page .nav-about .close-about {
   color: var(--third-color);
+  float: left;
 }
 .about-page .nav-about .close-about:hover {
     color: #fff;
@@ -130,5 +131,39 @@
 .tabs ul {
     list-style: none;
     display: inline-block;
+    float: right;
+}
+.about-page .nav-about .logo {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    float: right;
+}
+.about-page .nav-about .close-about {
+    float: left;
+    margin-top: 14px;
+    display: inline-block;
+    color: var(--third-color);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    margin-right: 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.internship h1 {
+    padding: 20px 0;
+    font-size: 6rem;
+    line-height: 6rem;
+    color: var(--third-color);
+    font-weight: bold;
+    margin: 180px 0;
+}
+about-page .nav-about .logo {
+    text-align: center;
+    display: inline-block;
+    margin: 6px auto;
     float: right;
 }

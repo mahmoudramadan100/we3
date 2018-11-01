@@ -90,7 +90,12 @@ $(function () {
         $(".body").css("display", "none");
     });
     $(".close-about").click(function () {
-        $(".about-page").css("display", "none");
+        // $(".about-page").css("display", "none");
+        // $(".body").css("display", "block");
+        $(".about-page").css({
+            "display":"none",
+            "transition": "all 0.4s"
+        });
         $(".body").css("display", "block");
     });
     

@@ -234,7 +234,7 @@ body::-webkit-scrollbar {
 }
 
 .slide .content-two {
-    background-color: #000000;
+    background-color: var(--second-color);
     color: #fff;
 }
 
@@ -425,14 +425,15 @@ div:hover:before {
     display: inline-block;
     position: absolute;
     top: 45%;
-    width: 188px;
-    left: -40%;
+    width: 250px;
+    left: -67%;
 }
 
 .slider .switch a {
     margin: 0 0;
     text-decoration: none;
     color: var(--third-color);
+    text-transform: uppercase;
 }
 
 .slider .switch .fa-angle-down {
@@ -1070,8 +1071,13 @@ footer ul li a:hover {
     top: 0;
     left: 0;
     z-index: 999;
+    transition: all 8s;
+    -webkit-transition: all 8s;
+    -moz-transition: all 8s;
+    -ms-transition: all 8s;
+    -o-transition: all 8s;
 }
-.about-page.nav-about {
+.about-page .nav-about {
     padding: 10px 0;
 }
 .about-page .nav-about .logo {
