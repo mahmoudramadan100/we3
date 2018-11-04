@@ -6,6 +6,8 @@ $(function () {
             nocookie: true
         }
     });
+
+    
     
     // scroll icons
     $(".scroll span").click(function () {
@@ -110,5 +112,18 @@ $(function () {
     var scroll = new SmoothScroll('a[href*="#3"]', {
         speed: 900
     });
+
+    // menu mobile
+    // $('#menu-mobile').click($(this).fadeToggle())
+
+    $('.icon').click(function() {
+        $('#menu-mobile').fadeToggle("slow", "linear");
+    });
+    // $('.fa-times').click(function () {
+    //     $('#menu-mobile').css({
+    //         "display":"none"
+    //     });
+    // });
+    
 
 });
