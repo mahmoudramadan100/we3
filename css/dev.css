@@ -2,30 +2,38 @@
     margin-right: 0;
     margin-left: -15px;
 }
+
 .navbar {
     background-color: var(--second-color);
     height: 70px;
     padding-left: 45px;
     width: 91.91%;
 }
+
 .about-page {
     background-color: var(--second-color);
 }
+
 .internship .text {
     color: var(--dev-color);
 }
+
 .question .q h4 {
     color: var(--third-color);
 }
+
 .question .answer {
     color: var(--dev-color);
 }
+
 .question .q::before {
     color: var(--third-color);
 }
+
 .question .answer::before {
     color: #fff;
 }
+
 .slider {
     background-color: #fff;
     height: 100vh;
@@ -33,16 +41,19 @@
     position: fixed;
     z-index: 9999;
 }
+
 .body {
-     background-color: var(--second-color);
+    background-color: var(--second-color);
 }
+
 .what h2,
 .intern h3,
 .food h6,
 
 .window h2 {
-   color: #fff;
+    color: #fff;
 }
+
 .the-role p,
 .requirements .list-requirements p,
 .list-requirements ul li,
@@ -51,10 +62,10 @@
 .life ul li,
 .intern p,
 .food p,
-.food h2
- {
+.food h2 {
     color: var(--dev-color);
 }
+
 .slider .switch {
     color: var(--third-color);
     font-size: 24px;
@@ -69,29 +80,35 @@
     width: 210px;
     left: -40%;
 }
+
 .about-page .nav-about .close-about {
-  color: var(--third-color);
-  float: left;
+    color: var(--third-color);
+    float: left;
 }
+
 .about-page .nav-about .close-about:hover {
     color: #fff;
 }
+
 .body .navbar .logo {
     color: var(--third-color);
     font-size: 20px;
     padding-right: 70px;
 }
+
 .body .navbar .logo {
     color: var(--third-color);
     font-size: 20px;
     padding-right: 70px;
 }
+
 .navbar {
     background-color: var(--second-color);
     height: 70px;
     padding-left: 150px;
     width: 100%;
 }
+
 .tabs {
     display: inline-block;
     float: right;
@@ -99,9 +116,11 @@
     top: 20%;
     right: 3%;
 }
+
 .tabs ul {
     list-style: none;
 }
+
 .tabs li a {
     padding: 60px 0 60px 29px;
     border-left: 2px solid var(--main-color);
@@ -117,9 +136,10 @@
     -o-transition: 0.4s all;
     border-right: 1px solid transparent;
 }
+
 .tabs li a:focus,
 .tabs li a:hover {
-   padding: 60px 0 60px 29px;
+    padding: 60px 0 60px 29px;
     border-left: 2px solid var(--third-color);
     margin: 2px 0;
     vertical-align: middle;
@@ -128,17 +148,20 @@
     color: var(--third-color);
     border-right: 1px solid transparent;
 }
+
 .tabs ul {
     list-style: none;
     display: inline-block;
     float: right;
 }
+
 .about-page .nav-about .logo {
     text-align: center;
     display: inline-block;
     margin: 0 auto;
     float: right;
 }
+
 .about-page .nav-about .close-about {
     float: left;
     margin-top: 14px;
@@ -153,6 +176,7 @@
     font-size: 19px;
     font-weight: bold;
 }
+
 .internship h1 {
     padding: 20px 0;
     font-size: 6rem;
@@ -161,6 +185,7 @@
     font-weight: bold;
     margin: 180px 0;
 }
+
 about-page .nav-about .logo {
     text-align: center;
     display: inline-block;

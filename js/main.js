@@ -7,8 +7,8 @@ $(function () {
         }
     });
 
-    
-    
+
+
     // scroll icons
     $(".scroll span").click(function () {
         $('html, body').animate({
@@ -21,7 +21,7 @@ $(function () {
             scrollTop: $(".slide").offset().top
         }, 700);
     });
-    
+
 
     // ripples water 
     $('.home').ripples({
@@ -33,7 +33,7 @@ $(function () {
 
     // scroll
     $('#fullpage').fullpage();
-    
+
     // lighte slider
     $('#light-slider').lightSlider({
         item: 1,
@@ -42,8 +42,7 @@ $(function () {
         easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
         speed: 600,
         slideMargin: 10,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 800,
                 settings: {
                     item: 3,
@@ -60,7 +59,7 @@ $(function () {
             }
         ]
     });
-    
+
     // lighte slider
     $('#light').lightSlider({
         item: 1,
@@ -87,23 +86,23 @@ $(function () {
         ]
     });
     // Open About page
-    $(".about").click(function(){
-        $(".about-page").css("display","block");
+    $(".about").click(function () {
+        $(".about-page").css("display", "block");
         $(".body").css("display", "none");
     });
     $(".close-about").click(function () {
         // $(".about-page").css("display", "none");
         // $(".body").css("display", "block");
         $(".about-page").css({
-            "display":"none",
+            "display": "none",
             "transition": "all 0.4s"
         });
         $(".body").css("display", "block");
     });
-    
+
 
     // smooth scroll
-    var scroll = new SmoothScroll('a[href*="#1"]',{
+    var scroll = new SmoothScroll('a[href*="#1"]', {
         speed: 900
     });
     var scroll = new SmoothScroll('a[href*="#2"]', {
@@ -116,7 +115,7 @@ $(function () {
     // menu mobile
     // $('#menu-mobile').click($(this).fadeToggle())
 
-    $('.icon').click(function() {
+    $('.icon').click(function () {
         $('#menu-mobile').fadeToggle("slow", "linear");
     });
     // $('.fa-times').click(function () {
@@ -124,6 +123,6 @@ $(function () {
     //         "display":"none"
     //     });
     // });
-    
+
 
 });
